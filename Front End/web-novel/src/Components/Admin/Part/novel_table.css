@@ -1,0 +1,91 @@
+.admin-main-container {
+  overflow-x: auto;
+  position: relative;
+}
+
+.admin-main-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  table-layout: auto;
+  min-width: 800px;
+  border: 1px solid #263043;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.admin-main-container th,
+.admin-main-container td {
+  background-color: #263043;
+  color: #ffffff;
+  padding: 10px;
+  text-align: left;
+  max-width: 190px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.admin-main-container th {
+  background-color: #1d2634;
+  color: #ffffff;
+  padding: 10px;
+  text-align: left;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  font-size: 16px;
+  font-weight: bold;
+  max-width: 100px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.admin-main-container tr:nth-child(even) td {
+  background-color: rgba(38, 48, 67, 0.5);
+}
+
+.admin-main-container .btn {
+  margin-right: 5px;
+  white-space: nowrap;
+  position: relative;
+  color: rgb(255, 0, 81);
+}
+
+.admin-main-container td {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.admin-main-container .actions-cell {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  position: sticky;
+  right: 0;
+  background-color: #263043;
+  z-index: 2;
+  white-space: nowrap;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 998;
+}
+
+@media (max-width: 768px) {
+  .admin-main-container th,
+  .admin-main-container td {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .admin-main-container .btn {
+    margin-right: 3px;
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+}

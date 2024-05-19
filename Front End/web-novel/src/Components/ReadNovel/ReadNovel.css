@@ -1,0 +1,87 @@
+.read-novel-container {
+    padding: 2rem 0;
+  }
+  
+  .chapter-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .novel-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    color: #666;
+  }
+  
+  .novel-name {
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+  
+  .novel-author {
+    margin-right: 1rem;
+  }
+  
+  .novel-created-at {
+    font-style: italic;
+  }
+  
+  .chapter-content {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 2rem;
+  }
+  
+  .chapter-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .chapter-navigation button {
+    margin: 0 0.5rem;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 20%;
+    width: 100px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .chapter-navigation button:hover {
+    background-color: #0056b3;
+  }
+  
+  .chapter-navigation button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .chapter-navigation .dropdown {
+    margin: 0 1rem;
+  }
+  
+  .chapter-navigation .dropdown-menu {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .chapter-navigation .dropdown-item.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  .chapter-navigation .icon svg {
+    height: 2em; /* Adjust this value to your preference */
+    width: 2em;  /* Adjust this value to your preference */
+  }
+
